@@ -1,0 +1,25 @@
+<div class="container">
+  <h3 class="text-center">To Do App</h3>
+  
+  <input type="text" name="" id="" [(ngModel)]="novaTarefa.nome">
+  <button class="btn btn-primary" (click)="adicionarTarefa(novaTarefa)">Adicionar</button>
+
+  <table class="table table-bordered table-striped table-hover">
+    <thead class="thead-default">
+      <tr>
+        <th>#</th>
+        <th>Descrição</th>
+        <th>Status</th>
+        <th>Ação</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="#tarefa of tarefas">
+        <th scope="row"></th>
+        <td  [class.concluido]="tarefa.concluido">{{tarefa.nome}}</td>
+        <td  [class.concluido]="tarefa.concluido">{{tarefa.concluido ? 'Concluída': 'Em Aberto'}}</td>
+        <td><button class="btn btn-block btn-info" (click)="tarefa.concluido = !tarefa.concluido">{{tarefa.concluido ? 'Abrir': 'Concluir'}}</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

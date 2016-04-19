@@ -1,0 +1,1 @@
+{"version":3,"file":"tarefas.mock.js","sourceRoot":"","sources":["tarefas.mock.ts"],"names":[],"mappings":";;;QAEW,OAAO;;;;YAAP,qBAAA,OAAO,GAAa;gBAC9B,EAAE,IAAI,EAAE,iBAAiB;oBACxB,SAAS,EAAE,KAAK;iBAChB;gBACD;oBACC,IAAI,EAAE,gBAAgB;oBACtB,SAAS,EAAE,KAAK;iBAChB;gBACD;oBACC,IAAI,EAAE,gBAAgB;oBACtB,SAAS,EAAE,KAAK;iBAChB;aACD,CAAA,CAAA"}
